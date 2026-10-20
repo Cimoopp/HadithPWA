@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "Хадисы — Сахих аль-Бухари и Муслим",
+  "short_name": "Хадисы",
+  "description": "Достоверные хадисы: Бухари, Муслим и четыре Сунана. Русский перевод, офлайн.",
+  "lang": "ru",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0f1419",
+  "theme_color": "#0f1419",
+  "categories": ["books", "education", "lifestyle"],
+  "icons": [
+    { "src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Закладки", "short_name": "Закладки", "url": "./index.html?view=bookmarks" },
+    { "name": "Настройки", "short_name": "Настройки", "url": "./index.html?view=settings" }
+  ]
+}
