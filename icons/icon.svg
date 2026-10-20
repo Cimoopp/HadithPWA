@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Хадисы">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161d24"/>
+      <stop offset="1" stop-color="#0b0f13"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6c069"/>
+      <stop offset="1" stop-color="#c79a3c"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="168" fill="none" stroke="#2ea043" stroke-width="10" opacity=".55"/>
+  <!-- книга -->
+  <path d="M256 300c-30-18-62-26-98-26v-120c36 0 68 8 98 26 30-18 62-26 98-26v120c-36 0-68 8-98 26z"
+        fill="none" stroke="url(#gold)" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M256 300v-120" stroke="url(#gold)" stroke-width="12" stroke-linecap="round"/>
+  <!-- полумесяц сверху -->
+  <path d="M256 92a44 44 0 1 0 0 88 36 36 0 1 1 0-88z" fill="#2ea043"/>
+  <circle cx="306" cy="112" r="7" fill="#e6c069"/>
+  <rect x="158" y="360" width="196" height="12" rx="6" fill="#2ea043" opacity=".7"/>
+</svg>
